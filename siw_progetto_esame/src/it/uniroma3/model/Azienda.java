@@ -19,7 +19,7 @@ public class Azienda {
 	private String nome;
 	
 	@OneToMany
-	private Attivita attivita;
+	private Allievo allievo;
 	
 	@OneToMany
 	private Centro Centro;
